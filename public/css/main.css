@@ -112,16 +112,13 @@ ul#app-download-links {
 footer {
   background-color: #26BEFF;
   text-transform: uppercase;
+  padding: 0 20px;
   color: #fff; }
   footer .footer-links {
-    float: left;
-    padding: 1em 0; }
+    padding: 1em 0;
+    text-align: center; }
     footer .footer-links li {
-      display: inline-block;
-      margin-left: 2em;
       list-style: none; }
-    footer .footer-links li:first-child {
-      margin-left: 0; }
     footer .footer-links a {
       font-size: 14px;
       line-height: 21px;
@@ -129,8 +126,8 @@ footer {
       footer .footer-links a:hover {
         color: #cad0d7; }
   footer .social-links {
-    float: right;
-    padding: 1em 0; }
+    text-align: center;
+    padding-bottom: 1em; }
     footer .social-links li {
       margin-left: 1.5em;
       list-style: none;
@@ -222,6 +219,18 @@ img {
     margin-top: 5%; }
 
   .more-info:first-child {
-    margin-top: 15%; } }
+    margin-top: 15%; }
+
+  .footer-links {
+    float: left; }
+    .footer-links li {
+      display: inline-block;
+      margin-left: 2em; }
+      .footer-links li:first-child {
+        margin-left: 0; }
+
+  .social-links {
+    float: right;
+    padding: 1em 0; } }
 
 /*# sourceMappingURL=main.css.map */
