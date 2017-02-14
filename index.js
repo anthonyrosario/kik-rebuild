@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
   return res.render('index', {title: 'Home'});
 });
 
+app.get('/partners', (req, res) => {
+  return res.render('partners', {title: 'Partners'});
+});
+
 app.listen(app.get('port'), function() {
   console.log('Server is running on port', app.get('port'));
 });
