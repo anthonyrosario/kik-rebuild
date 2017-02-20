@@ -8,7 +8,8 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
-  color: #303030; }
+  color: #303030;
+  padding-top: 72px; }
 
 a {
   color: #303030;
@@ -56,7 +57,11 @@ button {
 #main-nav {
   padding: 0.5em 20px;
   background: #f4f6f7;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.35); }
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px; }
 
 ul#main-nav-links {
   padding-left: 0.5em;
@@ -189,7 +194,7 @@ img {
 
 #partners .banner {
   width: 100%;
-  height: 250px;
+  height: 275px;
   background: url("/images/partners.jpg") center no-repeat; }
 #partners .partners-content {
   padding-top: 4em;
@@ -206,7 +211,7 @@ img {
     font-size: 2em;
     letter-spacing: 1px; }
   #partners .partners-introduction p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 300;
     margin-bottom: 1em;
     line-height: 1.5; }
@@ -231,6 +236,25 @@ img {
   #partners .partners-more-info button {
     margin-bottom: 2em;
     margin-top: 1em; }
+#partners .partners-recent-news {
+  padding: 4em 20px; }
+  #partners .partners-recent-news h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 1em; }
+  #partners .partners-recent-news h3 {
+    font-size: 2.2em;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.7em;
+    color: #26BEFF; }
+  #partners .partners-recent-news p {
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.5; }
 
 @media screen and (min-width: 700px) {
   .col-3 {
