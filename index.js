@@ -19,6 +19,10 @@ app.get('/partners', (req, res) => {
   return res.render('partners', {title: 'Partners'});
 });
 
+app.get('/careers', (req, res) => {
+  return res.render('careers', {title: 'Careers'});
+});
+
 app.listen(app.get('port'), function() {
   console.log('Server is running on port', app.get('port'));
 });
