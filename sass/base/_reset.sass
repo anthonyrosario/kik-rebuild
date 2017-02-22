@@ -1,0 +1,40 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+
+body
+  font-family: 'Source Sans Pro', sans-serif
+  font-size: 16px
+  color: #303030
+  padding-top: 72px
+
+a
+  color: #303030
+  text-decoration: none
+  &:hover
+    color: $blue
+
+button
+  margin-top: .5em
+  border: none
+  background-color: $blue
+  text-transform: uppercase
+  font-size: 15px
+  padding: .75em 1.5em
+  border-radius: 30px
+  color: #fff
+  &:hover
+    background-color: #20b2f0
+  &:focus
+    outline: none
+
+.clearfix::after,
+.clearfix:before
+  content: " "
+  display: table
+
+.clearfix::after
+  clear: both

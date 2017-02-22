@@ -1,0 +1,67 @@
+.navbar-brand
+  color: $green
+  font-weight: 900
+  font-size: 2.5em
+  line-height: 1.5
+
+#main-nav
+  padding: .5em 20px
+  background: #f4f6f7
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .15)
+  position: fixed
+  width: 100%
+  top: 0px
+  left: 0px
+
+ul#main-nav-links
+  padding-left: .5em
+  height: 0
+  overflow: hidden
+  transition: height .6s
+  li
+    font-size: 15px
+    line-height: 34px
+    text-transform: uppercase
+    font-weight: 400
+    position: relative
+    list-style: none
+
+ul#app-download-links
+  display: none
+  border-radius: 2px
+  li
+    margin-left: 0
+    display: block
+    padding: 1.25em 1em
+    &:hover
+      background-color: #fff
+    a
+      color: $blue
+      i
+        font-size: 3em
+      &:hover
+        color: #20b2f0
+
+.navbar-menu-btn
+  float: right
+  width: 30px
+  height: 60px
+  position: relative
+  &:hover
+    cursor: pointer
+
+.menu-bar
+  position: absolute
+  border-radius: 4px
+  width: 100%
+  height: 4px
+  background-color: $blue
+
+.menu-top-bar
+  top: 18px
+
+.menu-middle-bar
+  top: 46%
+
+.menu-bottom-bar
+  bottom: 18px
