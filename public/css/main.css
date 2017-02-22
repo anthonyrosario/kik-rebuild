@@ -44,6 +44,10 @@ button {
   width: 100%;
   margin: 0 auto; }
 
+.row {
+  width: 100%;
+  max-width: 100%; }
+
 .col-3 {
   width: 100%;
   float: left; }
@@ -192,7 +196,7 @@ img {
   .more-info:first-child {
     margin-top: 0; }
 
-#partners .banner {
+#partners .partners-banner {
   width: 100%;
   height: 275px;
   background: url("/images/partners.jpg") center no-repeat; }
@@ -255,6 +259,11 @@ img {
     font-size: 1.3em;
     font-weight: 300;
     line-height: 1.5; }
+
+#careers .careers-banner {
+  width: 100%;
+  height: 275px;
+  background: url("/images/careers.jpg") 50% 40% no-repeat; }
 
 @media screen and (min-width: 700px) {
   .col-3 {
