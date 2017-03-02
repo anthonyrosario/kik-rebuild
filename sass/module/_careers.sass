@@ -57,3 +57,72 @@
       margin-top: 2em
 
   .careers-job-listing
+    padding: 4em 20px
+    select
+      -webkit-appearance: none
+      background: transparent
+      border: none
+      border-radius: 0
+      font-size: 1.1em
+      color: $blue
+      padding: 1em
+      font-weight: 300
+      width: 100%
+      &:focus
+        outline: none
+    .department-select-box
+      width: 100%
+      border: 1px solid #ccc
+      position: relative
+      margin-bottom: 1em
+      i
+        position: absolute
+        right: 5%
+        top: 35%
+        pointer-events: none
+
+    .locations-select-box
+      width: 100%
+      border: 1px solid #ccc
+      position: relative
+      i
+        position: absolute
+        right: 5%
+        top: 35%
+        pointer-events: none
+
+    .job-search-btn
+      margin-top: 2em
+
+    h2
+      margin-bottom: 3em
+    table
+      width: 100%
+      margin-top: 3em
+      table-layout: fixed
+    th
+      font-size: 1.1em
+      padding-top: .5em
+      padding-bottom: .5em
+      color: #555
+      padding-left: .6em
+      &:first-child
+        padding-left: 0
+    td
+      font-size: 1em
+      font-weight: 300
+      padding-top: .5em
+      padding-bottom: .5em
+      padding-left: 1em
+      &:first-child
+        padding-left: .5em
+    tr:nth-child(n + 2)
+      &:hover
+        a
+          color: #fff
+        background-color: $blue
+
+    table, th, td
+      border-collapse: collapse
+      border-bottom: 1px solid #aaa
+      text-align: left

@@ -73,7 +73,8 @@ button {
   position: fixed;
   width: 100%;
   top: 0px;
-  left: 0px; }
+  left: 0px;
+  z-index: 100; }
 
 ul#main-nav-links {
   padding-left: 0.5em;
@@ -318,6 +319,71 @@ img {
     font-size: 30px; }
   #careers .careers-more-info .col-4 {
     margin-top: 2em; }
+#careers .careers-job-listing {
+  padding: 4em 20px; }
+  #careers .careers-job-listing select {
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    font-size: 1.1em;
+    color: #26BEFF;
+    padding: 1em;
+    font-weight: 300;
+    width: 100%; }
+    #careers .careers-job-listing select:focus {
+      outline: none; }
+  #careers .careers-job-listing .department-select-box {
+    width: 100%;
+    border: 1px solid #ccc;
+    position: relative;
+    margin-bottom: 1em; }
+    #careers .careers-job-listing .department-select-box i {
+      position: absolute;
+      right: 5%;
+      top: 35%;
+      pointer-events: none; }
+  #careers .careers-job-listing .locations-select-box {
+    width: 100%;
+    border: 1px solid #ccc;
+    position: relative; }
+    #careers .careers-job-listing .locations-select-box i {
+      position: absolute;
+      right: 5%;
+      top: 35%;
+      pointer-events: none; }
+  #careers .careers-job-listing .job-search-btn {
+    margin-top: 2em; }
+  #careers .careers-job-listing h2 {
+    margin-bottom: 3em; }
+  #careers .careers-job-listing table {
+    width: 100%;
+    margin-top: 3em;
+    table-layout: fixed; }
+  #careers .careers-job-listing th {
+    font-size: 1.1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #555;
+    padding-left: 0.6em; }
+    #careers .careers-job-listing th:first-child {
+      padding-left: 0; }
+  #careers .careers-job-listing td {
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em; }
+    #careers .careers-job-listing td:first-child {
+      padding-left: 0.5em; }
+  #careers .careers-job-listing tr:nth-child(n + 2):hover {
+    background-color: #26BEFF; }
+    #careers .careers-job-listing tr:nth-child(n + 2):hover a {
+      color: #fff; }
+  #careers .careers-job-listing table, #careers .careers-job-listing th, #careers .careers-job-listing td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #aaa;
+    text-align: left; }
 
 @media screen and (min-width: 700px) {
   .col-3 {
@@ -375,6 +441,21 @@ img {
 
   .careers-more-info .col-4 {
     padding-left: 2.3em;
-    margin-top: 1em; } }
+    margin-top: 1em; }
+
+  #careers .careers-job-listing .locations-select-box {
+    width: 40%;
+    margin-left: 1em;
+    float: left; }
+  #careers .careers-job-listing .department-select-box {
+    width: 40%;
+    float: left; }
+  #careers .careers-job-listing .job-search-btn {
+    margin-top: 0.5em;
+    margin-left: 1em; }
+  #careers .careers-job-listing th {
+    font-size: 2em; }
+  #careers .careers-job-listing td {
+    font-size: 1.3em; } }
 
 /*# sourceMappingURL=main.css.map */

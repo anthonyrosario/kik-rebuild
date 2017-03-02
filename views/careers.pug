@@ -45,184 +45,187 @@ block content
                 span generous benefits
 
     div(class="careers-job-listing")
-      h2 Interested in hearing more? We're hiring.
+      div.container
+        h2 Interested in hearing more? We're hiring.
 
-      select(name="Department")
-        option All Departments
-        option(value="Business Operations") Business Operations
-        option(value="Data") Data
-        option(value="Development") Development
-        option(value="Engineering") Engineering
-        option(value="Legal") Legal
+        div(class="row clearfix")
+          div(class="department-select-box")
+            select(name="Department")
+              option All Departments
+              option(value="Business Operations") Business Operations
+              option(value="Data") Data
+              option(value="Development") Development
+              option(value="Engineering") Engineering
+              option(value="Legal") Legal
+            i(class="fa fa-chevron-down" aria-hidden="true")
+          div(class="locations-select-box")
+            select(name="Locations")
+              option All Locations
+              option(value="New York, NY") New York, NY
+              option(value="Toronto, Canada") Toronto, Canada
+              option(value="Waterloo, Canada") Waterloo, Canada
+            i(class="fa fa-chevron-down" aria-hidden="true")
 
-      select(name="Department")
-        option All Departments
-        option(value="Business Operations") Business Operations
-        option(value="Data") Data
-        option(value="Development") Development
-        option(value="Engineering") Engineering
-        option(value="Legal") Legal
+          button(class="job-search-btn") Search
 
-      button Search
-
-      div(class="list-result")
-        table
-          tbody
-            tr
-              th JOB TITLE
-              th DEPARTMENT
-              th LOCATION
-            tr
-              td
-                a(href="") Android Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href="") Anti-Spam Software Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Backend Developer
-              td
-                a(href=" ") Engineering
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Community Safety Moderator
-              td
-                a(href=" ") Business Operations
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Data Scientist
-              td
-                a(href=" ") Data
-              td
-                a(href=" ") New York, NY
-            tr
-              td
-                a(href="") Development Manager, Server
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Director of Trust and Safety
-              td
-                a(href=" ") Business Operations
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href="") iOS Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href="") Mobile Development Manager
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href="") Mobile Development Manager (Toronto)
-              td
-                a(href="") Engineering
-              td
-                a(href="") Toronto, Canada
-            tr
-              td
-                a(href="") QA Manager
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Security Team Lead
-              td
-                a(href=" ") Engineering
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href="") Senior Android Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Toronto, Canada
-            tr
-              td
-                a(href=" ") Senior Intellectual Property Law Clerk
-              td
-                a(href=" ") Legal
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href="") Senior iOS Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href="") Senior iOS Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Toronto, Canada
-            tr
-              td
-                a(href="") Senior Server Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Senior Software Developer, Anti-Spam
-              td
-                a(href=" ") Engineering
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href="") Server Developer
-              td
-                a(href="") Engineering
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Software Development Manager
-              td
-                a(href=" ") Engineering
-              td
-                a(href=" ") Waterloo, Canada
-            tr
-              td
-                a(href="") UI/UX Designer
-              td
-                a(href="") Development
-              td
-                a(href="") Waterloo, Canada
-            tr
-              td
-                a(href=" ") Web Developer
-              td
-                a(href=" ") Engineering
-              td
-                a(href=" ") Toronto, Canada
+        div(class="list-result")
+          table
+            tbody
+              tr
+                th JOB TITLE
+                th DEPARTMENT
+                th LOCATION
+              tr
+                td
+                  a(href="") Android Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href="") Anti-Spam Software Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Backend Developer
+                td
+                  a(href=" ") Engineering
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Community Safety Moderator
+                td
+                  a(href=" ") Business Operations
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Data Scientist
+                td
+                  a(href=" ") Data
+                td
+                  a(href=" ") New York, NY
+              tr
+                td
+                  a(href="") Development Manager, Server
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Director of Trust and Safety
+                td
+                  a(href=" ") Business Operations
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href="") iOS Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href="") Mobile Development Manager
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href="") Mobile Development Manager (Toronto)
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Toronto, Canada
+              tr
+                td
+                  a(href="") QA Manager
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Security Team Lead
+                td
+                  a(href=" ") Engineering
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href="") Senior Android Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Toronto, Canada
+              tr
+                td
+                  a(href=" ") Senior Intellectual Property Law Clerk
+                td
+                  a(href=" ") Legal
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href="") Senior iOS Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href="") Senior iOS Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Toronto, Canada
+              tr
+                td
+                  a(href="") Senior Server Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Senior Software Developer, Anti-Spam
+                td
+                  a(href=" ") Engineering
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href="") Server Developer
+                td
+                  a(href="") Engineering
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Software Development Manager
+                td
+                  a(href=" ") Engineering
+                td
+                  a(href=" ") Waterloo, Canada
+              tr
+                td
+                  a(href="") UI/UX Designer
+                td
+                  a(href="") Development
+                td
+                  a(href="") Waterloo, Canada
+              tr
+                td
+                  a(href=" ") Web Developer
+                td
+                  a(href=" ") Engineering
+                td
+                  a(href=" ") Toronto, Canada
