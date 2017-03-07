@@ -385,6 +385,26 @@ img {
     border-bottom: 1px solid #aaa;
     text-align: left; }
 
+#help {
+  color: #fff; }
+  #help p {
+    font-size: 2em;
+    line-height: 1.5; }
+  #help .help-search-box {
+    text-align: center;
+    background-color: #26BEFF;
+    padding: 4em 20px; }
+  #help input {
+    font-size: 1.1em;
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 0.75em;
+    border: none;
+    border-radius: 30px; }
+    #help input:focus {
+      outline: none; }
+
 @media screen and (min-width: 700px) {
   .col-3 {
     width: 33%; }
