@@ -386,7 +386,8 @@ img {
     text-align: left; }
 
 #help {
-  color: #fff; }
+  color: #fff;
+  -ms-input-placeholder-text-align: center; }
   #help p {
     font-size: 2em;
     line-height: 1.5; }
@@ -398,12 +399,16 @@ img {
     font-size: 1.1em;
     margin-top: 2em;
     width: 100%;
-    text-align: center;
+    text-align: start;
     padding: 0.75em;
     border: none;
     border-radius: 30px; }
     #help input:focus {
       outline: none; }
+  #help ::-webkit-input-placeholder {
+    text-align: center; }
+  #help ::-moz-placeholder {
+    text-align: center; }
 
 @media screen and (min-width: 700px) {
   .col-3 {
