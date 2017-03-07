@@ -7,8 +7,18 @@
     text-align: center
     background-color: $blue
     padding: 4em 20px
-
+  form
+    width: 100%
+    position: relative
+    button
+      position: absolute
+      font-size: 1.5em
+      right: -10px
+      top: -18px
+      background: transparent
+      color: #ccc
   input
+    display: block
     font-size: 1.1em
     margin-top: 2em
     width: 100%
@@ -16,6 +26,9 @@
     padding: .75em
     border: none
     border-radius: 30px
+    appearance: none
+    -moz-appearance: none
+    -webkit-appearance: none
     &:focus
       outline: none
   ::-webkit-input-placeholder
@@ -26,3 +39,17 @@
 
   :-ms-input-placeholder
     text-align: center
+
+  .help-preselected-topics
+    margin: 4em 20px
+    a
+      display: inline-block
+      border: 2px solid $blue
+      text-align: center
+      padding: 1em
+      border-radius: 20px
+      color: $green
+      font-size: 1.5em
+      margin-left: 5%
+      margin-right: 5%
+      margin-bottom: 2em
