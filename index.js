@@ -23,6 +23,10 @@ app.get('/careers', (req, res) => {
   return res.render('careers', {title: 'Careers'});
 });
 
+app.get('/help', (req, res) => {
+  return res.render('help', {title: 'Help Center'});
+});
+
 app.listen(app.get('port'), function() {
   console.log('Server is running on port', app.get('port'));
 });
