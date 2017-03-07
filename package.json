@@ -4,6 +4,7 @@
   "description": "This is a rebuild of the kik website.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon & sass --watch sass/app.sass:public/css/main.css"
   },
   "author": "Anthony Rosario",
